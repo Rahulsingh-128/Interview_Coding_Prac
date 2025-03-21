@@ -10,3 +10,5 @@ const handleClick = () => {
     }).then((message) => console.log(message));
   }, 0);
 };
+
+window.handleClick = handleClick;
